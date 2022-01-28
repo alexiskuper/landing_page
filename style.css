@@ -1,0 +1,34 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    background: #A60A3D;
+    color: white;
+}
+
+.logo {
+    padding: 254px;
+    font-weight: 800;
+}
+
+.header-links {
+    display: flex;
+    margin-left: 311px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline; /*this makes the header links appear horizontal*/
+    padding: 24px;
+}
